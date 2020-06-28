@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ルーントランス</string>
+    <string name="hint">文字を入力してください</string>
+    <string name="bg">ラビ</string>
+</resources>

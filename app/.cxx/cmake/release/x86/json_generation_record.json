@@ -1,0 +1,92 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Trying to locate CMake in local SDK repository.",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\build-tools\\28.0.3\\package.xml",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.0\\package.xml",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\package.xml",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\emulator\\package.xml",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\package.xml",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\package.xml",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\patcher\\v4\\package.xml",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\platform-tools\\package.xml",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\platforms\\android-29\\package.xml",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\tools\\package.xml",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "- CMake found in SDK at \u0027C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027E:\\as\\RunesTrans\\app\\.cxx\\cmake\\release\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "release|x86"
+  }
+]
