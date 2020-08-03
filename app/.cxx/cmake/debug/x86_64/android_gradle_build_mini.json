@@ -9,11 +9,12 @@
   ],
   "buildTargetsCommand": "C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\as\\RunesTrans\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
-    "native-lib-Debug-x86_64": {
-      "artifactName": "native-lib",
-      "buildCommand": "C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\as\\RunesTrans\\app\\.cxx\\cmake\\debug\\x86_64\" native-lib",
+    "rune-Debug-x86_64": {
+      "artifactName": "rune",
+      "buildCommand": "C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\as\\RunesTrans\\app\\.cxx\\cmake\\debug\\x86_64\" rune",
       "abi": "x86_64",
-      "output": "E:\\as\\RunesTrans\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libnative-lib.so"
+      "output": "E:\\as\\RunesTrans\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\librune.so",
+      "runtimeFiles": []
     }
   }
 }

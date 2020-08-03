@@ -1,73 +1,13 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 21 min SDK version: armeabi-v7a",
+    "message": "Start JSON generation. Platform version: 23 min SDK version: armeabi-v7a",
     "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
     "tag": "debug|armeabi-v7a"
   },
   {
     "level": "INFO",
     "message": "Trying to locate CMake in local SDK repository.",
-    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "debug|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\build-tools\\28.0.3\\package.xml",
-    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "debug|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\build-tools\\29.0.0\\package.xml",
-    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "debug|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\package.xml",
-    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "debug|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\emulator\\package.xml",
-    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "debug|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\package.xml",
-    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "debug|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669\\package.xml",
-    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "debug|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\patcher\\v4\\package.xml",
-    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "debug|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\platform-tools\\package.xml",
-    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "debug|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\platforms\\android-29\\package.xml",
-    "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "debug|armeabi-v7a"
-  },
-  {
-    "level": "INFO",
-    "message": "Parsing C:\\Users\\spayi\\AppData\\Local\\Android\\Sdk\\tools\\package.xml",
     "file": "E:\\as\\RunesTrans\\app\\src\\main\\cpp\\CMakeLists.txt",
     "tag": "debug|armeabi-v7a"
   },

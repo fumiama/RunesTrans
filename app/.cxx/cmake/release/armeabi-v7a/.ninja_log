@@ -1,3 +1,3 @@
 # ninja log v5
-0	1604	606573775	CMakeFiles/native-lib.dir/native-lib.cpp.o	a442b5109f85ab2e
-1607	1761	606573775	E:/as/RunesTrans/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so	134979cb484853be
+3	2138	618135372	CMakeFiles/rune.dir/rune.cpp.o	313a684728354f9c
+2140	2712	618135373	E:/as/RunesTrans/app/build/intermediates/cmake/release/obj/armeabi-v7a/librune.so	7d564717995edb31

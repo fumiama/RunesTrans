@@ -29,48 +29,6 @@ ninja_required_version = 1.5
 
 include rules.ninja
 
-# =============================================================================
-# Object build statements for SHARED_LIBRARY target native-lib
-
-
-#############################################
-# Order-only phony target for native-lib
-
-build cmake_object_order_depends_target_native-lib: phony
-build CMakeFiles/native-lib.dir/native-lib.cpp.o: CXX_COMPILER__native-lib E$:/as/RunesTrans/app/src/main/cpp/native-lib.cpp || cmake_object_order_depends_target_native-lib
-  DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles\native-lib.dir\native-lib.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
-  OBJECT_DIR = CMakeFiles\native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles\native-lib.dir
-
-# =============================================================================
-# Link build statements for SHARED_LIBRARY target native-lib
-
-
-#############################################
-# Link the shared library E:\as\RunesTrans\app\build\intermediates\cmake\debug\obj\arm64-v8a\libnative-lib.so
-
-build E$:/as/RunesTrans/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/native-lib.cpp.o | C$:/Users/spayi/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so
-  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info
-  LINK_FLAGS = -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
-  LINK_LIBRARIES = -llog -latomic -lm
-  OBJECT_DIR = CMakeFiles\native-lib.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  SONAME = libnative-lib.so
-  SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = E:\as\RunesTrans\app\build\intermediates\cmake\debug\obj\arm64-v8a\libnative-lib.so
-  TARGET_PDB = native-lib.so.dbg
-
-#############################################
-# Utility command for edit_cache
-
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D E:\as\RunesTrans\app\.cxx\cmake\debug\arm64-v8a && C:\Users\spayi\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-build edit_cache: phony CMakeFiles/edit_cache.util
 
 #############################################
 # Utility command for rebuild_cache
@@ -82,10 +40,52 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   restat = 1
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
+# Object build statements for SHARED_LIBRARY target rune
+
+
+#############################################
+# Order-only phony target for rune
+
+build cmake_object_order_depends_target_rune: phony
+build CMakeFiles/rune.dir/rune.cpp.o: CXX_COMPILER__rune E$:/as/RunesTrans/app/src/main/cpp/rune.cpp || cmake_object_order_depends_target_rune
+  DEFINES = -Drune_EXPORTS
+  DEP_FILE = CMakeFiles\rune.dir\rune.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\rune.dir
+  OBJECT_FILE_DIR = CMakeFiles\rune.dir
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target rune
+
+
+#############################################
+# Link the shared library E:\as\RunesTrans\app\build\intermediates\cmake\debug\obj\arm64-v8a\librune.so
+
+build E$:/as/RunesTrans/app/build/intermediates/cmake/debug/obj/arm64-v8a/librune.so: CXX_SHARED_LIBRARY_LINKER__rune CMakeFiles/rune.dir/rune.cpp.o | C$:/Users/spayi/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/liblog.so
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
+  LINK_LIBRARIES = -llog -latomic -lm
+  OBJECT_DIR = CMakeFiles\rune.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  SONAME = librune.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = E:\as\RunesTrans\app\build\intermediates\cmake\debug\obj\arm64-v8a\librune.so
+  TARGET_PDB = rune.so.dbg
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D E:\as\RunesTrans\app\.cxx\cmake\debug\arm64-v8a && C:\Users\spayi\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+build edit_cache: phony CMakeFiles/edit_cache.util
+# =============================================================================
 # Target aliases.
 
-build libnative-lib.so: phony E$:/as/RunesTrans/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so
-build native-lib: phony E$:/as/RunesTrans/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so
+build librune.so: phony E$:/as/RunesTrans/app/build/intermediates/cmake/debug/obj/arm64-v8a/librune.so
+build rune: phony E$:/as/RunesTrans/app/build/intermediates/cmake/debug/obj/arm64-v8a/librune.so
 # =============================================================================
 # Folder targets.
 
@@ -97,7 +97,7 @@ build native-lib: phony E$:/as/RunesTrans/app/build/intermediates/cmake/debug/ob
 #############################################
 # The main all target.
 
-build all: phony E$:/as/RunesTrans/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so
+build all: phony E$:/as/RunesTrans/app/build/intermediates/cmake/debug/obj/arm64-v8a/librune.so
 
 #############################################
 # Make the all target the default.
