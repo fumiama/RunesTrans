@@ -1,7 +1,7 @@
-Executable : C:\Users\spayi\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+Executable : /Users/rumia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
 arguments : 
 -C
-E:\as\RunesTrans\app\.cxx\cmake\debug\arm64-v8a
+/Users/rumia/AndroidStudioProjects/RunesTrans/app/.cxx/cmake/debug/arm64-v8a
 rune
 jvmArgs : 
 
