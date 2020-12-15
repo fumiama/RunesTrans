@@ -1,2 +1,2 @@
-ninja: Entering directory `E:\as\RunesTrans\app\.cxx\cmake\release\arm64-v8a'
+ninja: Entering directory `/Users/rumia/AndroidStudioProjects/RunesTrans/app/.cxx/cmake/release/arm64-v8a'
 ninja: no work to do.

@@ -1,20 +1,20 @@
-Executable : C:\Users\spayi\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
+                Executable : /Users/rumia/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
--HE:\as\RunesTrans\app\src\main\cpp
--DCMAKE_FIND_ROOT_PATH=E:\as\RunesTrans\app\.cxx\cmake\release\prefab\x86_64\prefab
+-H/Users/rumia/AndroidStudioProjects/RunesTrans/app/src/main/cpp
+-DCMAKE_FIND_ROOT_PATH=/Users/rumia/AndroidStudioProjects/RunesTrans/app/.cxx/cmake/release/prefab/x86_64/prefab
 -DCMAKE_BUILD_TYPE=Release
--DCMAKE_TOOLCHAIN_FILE=C:\Users\spayi\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_TOOLCHAIN_FILE=/Users/rumia/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake
 -DANDROID_ABI=x86_64
--DANDROID_NDK=C:\Users\spayi\AppData\Local\Android\Sdk\ndk-bundle
+-DANDROID_NDK=/Users/rumia/Library/Android/sdk/ndk/22.0.7026061
 -DANDROID_PLATFORM=android-23
 -DCMAKE_ANDROID_ARCH_ABI=x86_64
--DCMAKE_ANDROID_NDK=C:\Users\spayi\AppData\Local\Android\Sdk\ndk-bundle
+-DCMAKE_ANDROID_NDK=/Users/rumia/Library/Android/sdk/ndk/22.0.7026061
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\as\RunesTrans\app\build\intermediates\cmake\release\obj\x86_64
--DCMAKE_MAKE_PROGRAM=C:\Users\spayi\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/rumia/AndroidStudioProjects/RunesTrans/app/build/intermediates/cmake/release/obj/x86_64
+-DCMAKE_MAKE_PROGRAM=/Users/rumia/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
 -DCMAKE_SYSTEM_NAME=Android
 -DCMAKE_SYSTEM_VERSION=23
--BE:\as\RunesTrans\app\.cxx\cmake\release\x86_64
+-B/Users/rumia/AndroidStudioProjects/RunesTrans/app/.cxx/cmake/release/x86_64
 -GNinja
 jvmArgs : 
 
